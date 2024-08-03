@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color:darkgray;
+}
+.container img{
+    height: 350px;
+    width: 250px;
+    padding-top: 50px;
+}
+.container-text{
+    width: 400px;
+    margin-top:150px ;
+}
+.kutu{
+    width: 800px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container-text h1{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.container-text h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.container-text p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.kutu2{
+    width: 100%;
+    display:flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content:center;
+    margin-left: 80px;
+    
+}
+.container-text2{
+    width: 100%;
+    margin-top:30px ;
+    margin-left: 100px;
+    text-align: right;   
+}
+.container-text2 h1{
+    width: 50%;
+    float:left;
+    padding:0px 0px 20px 0px;
+
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.container-text2 ul{
+    width: 60%;
+    list-style:circle;
+    float:inline-start;
+    padding:0px 0px 20px 50px;
+    color: aliceblue;
+    text-align:justify;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.kutu3 h1{
+    margin-top:70px ;
+    margin-bottom:70px ;
+    margin-left:20%;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.kutu3{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kutu3 h3{
+    color: white;
+    font-size: 25px;
+}
+.kutu3 p{
+    color:darkslategray;
+    font-size: 15px;
+}
+.kart{
+    display: flex;
+    margin-left:20%;
+    margin-bottom: 20px;
+    align-items: center;
+    border-style:ridge;
+    border-radius: 20px;
+    width: 70%;
+    gap: 10px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+.kart p{
+    flex-direction:column;
+    text-align:start;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.kart img{
+    padding: 20px 20px 0 0;
+    width: 50%;
+    border-radius: 50px;
+}
